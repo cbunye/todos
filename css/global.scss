@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fefefe;
+  font-family: "Lato-Regular", sans-serif;
+}
+
+.logo {
+	margin: 1rem 0; 
+}
+
+.font-size-2-5 { font-size: 2rem; }
+
+.home {
+	h2 {
+		font: {
+
+		}
+
+		text: {
+			transform: uppercase;
+		}
+	}
+}
+
+.newsletter-container {
+	text-align: center;
+	margin-top: 4rem;
+	background-color: #41261C;
+	padding: 2rem 0;
+
+	form {
+		color: white;
+		label {
+			color: white;
+		}
+	}
+
+}
+
+.margin-top-1 {
+  margin-top: 1rem; }
+.margin-top-2 {
+  margin-top: 2rem; }
+.margin-top-3 {
+  margin-top: 3rem; }
+.margin-top-4 {
+  margin-top: 4rem; }
+
+.top-links-container {
+  background-color: #f3f3f3; }
+  .top-links-container .top-links li {
+    text-transform: uppercase;
+    font-size: .6879999999999999rem;
+    color: black; 
+    padding: 0.7rem 1rem
+}
+
+.breadcrumbs {
+	padding: 2rem;
+	background: {
+		color: #f3f3f3;
+	}
+	li {
+		float: none;
+		display: inline-block;;
+	}
+}
+
+.about-us {
+	h3 { 
+		text: {
+			transform: uppercase;
+		}
+	}
+	span {
+		display: block;
+		font-size: 1.25rem;
+		font-family: "Lato-Bold", sans-serif;
+		color: #6D8C3A;
+		margin: 0;
+		padding: 0;
+	}
+
+	p {
+		font-family: "Lato-Light", sans-serif;
+	}
+}
+
+@media screen and (max-width: 39.9375em) {
+	.menu  {
+		a {
+			padding: 0.7rem .40rem;
+		}
+	}
+
+	.breadcrumbs {
+		padding: 2rem;
+	}
+}
+/*# sourceMappingURL=app.css.map */
